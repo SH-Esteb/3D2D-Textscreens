@@ -1,4 +1,4 @@
-textscreenFonts = {}
+local !textscreenFonts or textscreenFonts = {}
 
 local function addFont(font, t)
 	if CLIENT then
